@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<link rel="stylesheet" href="./Boxbar.css">
+<style>
+    .contactbox { 
+        margin-left: 10px;
+        border-radius: 2%;
+        width: 500px;
+        height: 700px;
+        border: 1px solid black;
+
+    }
+    .insideinfo {
+        margin-left: 40px;
+    }
+
+    input {
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    select {
+        width: 300px;
+    }
+
+    #submit {
+        width: 60px
+    }
+    
+
+</style>
+</head>
+<body>
+    
+        <div class="boxbar" style="margin-left: 40px ;">
+            <a href="./Profile.html">Profile</a>
+        </div>
+        <div class="boxbar">
+            <a href="./Education.html">Education</a>
+        </div>
+        <div class="boxbar">
+            <a href="./Work-experience.html">Work Experience</a>
+        </div>
+        <div class="boxbar">
+            <a href="./RsContact.html">Contact Me</a>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <hr>
+<br>
+        <h1> Contact Me</h1>
+        <div class="contactbox">
+           <div class="insideinfo">
+               <h3>Infomation</h3>
+               <br>
+               <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+                   
+                       <label for="Your_Name:">Your Name</label>
+                       <br>
+                
+                       <input type="text" name="First_name" value="">
+                       <br>
+                       <br>
+                       <div style="margin-top:15px ;">
+
+                           <label for="Email">Your E-mail</label>
+                           <br>
+                           <input type="text" name="Email" value="">
+                           <br>
+                       </div>
+                        
+                    
+                    
+
+                <div style="margin-top:50px ;">
+                    <label for="Gender" >Gender</label>
+                    <br><br>
+
+                    <select name="Gender" id="Gender">
+                        
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                
+                    <div class="spacebox"></div>
+                    <p>Message : </p>
+                    <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                    <br>
+                <input type="submit" value="send" id="submit">
+                <input type="reset" value="clear" id="submit">
+
+
+               </form>
+            
+        </div>
+
+    
+        <div class="positionbutton" >
+
+            <button class="button"><span>
+            <a href="./Profile.html">Main</a>
+            </span></button>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 150vh;
+
+}
+
+.boxbar {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    /* border: 2px  solid black; */
+    margin:2px;
+    
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin-left: 40px;
+
+}
+
+  /* After this is to do the hover */
+
+  .button {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    /* cursor: pointer;/ไม่รู้ทำไร */
+
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    /* position: relative;อันนี้ยัง งง */ 
+    transition: 0.5s;
+    /* cursor: pointer; */
+
+
+
+}
+
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
+}
+
+.button:hover span {
+    padding-right: 25px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+
+
+.positionbutton {
+position: relative;
+height: 400px;
+/* border: 1px solid black; */
+
+}
+
+hr {
+        width: 744px;
+        float: left;
+        margin-left: 8px;
+        border: 3px solid black;
+
+    }
+
+
+.boxbar:hover {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+.boxbarmain{
+    /* background-color: green; */
+    width: 700px;
+    height: 40px;
+
+}
+
+.boxbar:hover {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+.spacebox {
+    width: 50px;
+    height: 50px;
+}

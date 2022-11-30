@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* *:hover {
+            opacity: 90%; */
+
+
+        /* } */
+        body{
+            height: 150vh;
+
+        }
+
+        .boxbar {
+            display: inline;
+            width: 30px;
+            height: 30px;
+            padding: 15px;
+            /* border: /2px  solid black; */
+            margin:2px;
+            
+
+        }
+       
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.5rem;
+        }
+        
+        #picturepofile {
+            margin-top: 50px;
+            margin-left: 150px;
+            margin-bottom: 25px;
+            /* background-color: aqua; */
+
+        }
+
+        h1 {
+            margin-left: 40px;
+
+        }
+
+        h3 {
+            margin-left: 50px;
+
+        }
+
+        .profilebox {
+            width:700px ;
+            height:150px;
+            text-indent: 40px;
+            letter-spacing: 2px;
+            text-align: justify;
+            line-height: 2 ;
+            margin-left: 25px;
+
+        }
+        h4 {
+            display: inline-block;
+        }
+
+        div h4{
+            margin-bottom: 0px;
+        }
+
+        .personalinfo {
+            text-indent: 40px;
+            letter-spacing: 2px;
+            text-align: justify;
+            line-height: 2 ;
+
+        }
+
+        li {
+            text-indent: 40px;
+            letter-spacing: 2px;
+            text-align: justify;
+            line-height: 2 ;
+
+        }
+
+            /* After this is to do the hover */
+
+            .button {
+                position: absolute;
+                bottom: 100px;
+                left: 50px;
+                border: none;
+                background-color: black;
+                color: aliceblue;
+                width: 200px;
+                height: 70px;
+                font-size: 30px;
+                /* cursor: pointer;/ไม่รู้ทำไร */
+
+            }
+
+            .button span {
+                display: inline-block;
+                position: relative;
+                /* position: relative;อันนี้ยัง งง */ 
+                transition: 0.5s;
+                /* cursor: pointer; */
+
+
+
+            }
+
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+
+            }
+
+
+
+        .positionbutton {
+           position: relative;
+           height: 400px;
+           /* border: 1px solid black; */
+
+        }
+
+    /* Starting hover */
+
+   .boxbar:hover {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+
+    }
+
+        hr {
+            width: 744px;
+            float: left;
+            margin-left: 8px;
+            border: 3px solid black;
+
+        }
+
+        .boxbarmain{
+            /* background-color: green; */
+            width: 700px;
+            height: 40px;
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="boxbarmain">
+        <div class="boxbar" style="margin-left: 35px ;">
+            <a href="./Profile.html">Profile</a>
+        </div>
+        <div class="boxbar">
+            <a href="./Education.html">Education</a>
+        </div>
+        <div class="boxbar">
+            <a href="./Work-experience.html">Work Experience</a>
+        </div>
+        <div class="boxbar">
+            <a href="./RsContact.html">Contact Me</a>
+    </div>
+    
+</div>
+<br>
+<br>
+<br>
+
+
+
+<hr>
+<br>
+<h1> Nasuwan Meesuwan</h1>
+
+<h3>Student Codecamp #13</h3>
+
+<div id="picturepofile">
+    <img src="./pic/man-with-tie-profile.svg" alt="profile" style="width: 300px; ">
+</div>
+
+<br>
+<div class="profilebox">
+    <p>A Student who study in Codecamp#13 that want to develop coding skill for better future. Codecamp is trainnig the person who want to be the developer or programer. In Codecamp I have learn about: UX/UI HTML & CSS</p>
+</div>
+
+<hr>
+<br>
+<br>
+<h2 style="margin-left: 40px;">Personal Info</h2>
+
+<div class="personalinfo">
+    <br>
+    <h4>Location :</h4>&nbsp;  <span>Bangkok, Thailand</span>
+    <br>
+    <h4>Phone :</h4>&nbsp;  <span>(+66) 65 119 1150 </span>    
+    <br>
+    <h4>E-mail :</h4>&nbsp;  <span>Nasuwan.meesuwan@gmail.com</span>
+    <br>
+    <h4>Line :</h4>&nbsp;  <span>Na-zeed</span>
+    <!-- มันมีวิธีที่ดีกว่านี้มั้ยครับ -->
+    <!-- เเล้วถ้าเป็น 2 div ๘้ายขวาจะดีกว่ามั้ยครับในเเบบให้มันเท่ากัน -->
+
+</div>
+<br>
+<br>
+
+<hr >
+<br>
+<ul>
+  <h2>Skills</h2>
+<br>
+  <li>Microsoft Word</li>
+  <li>Microsoft Excel</li>
+  <li>Powerpoint</li>
+  <li>Photoshop</li>
+  <li>Html</li>
+  <li>CSS</li>
+  <!-- ถ้าอยากให้เว้นมากกว่าน้าต้องทำยังไง -->
+  
+    
+</ul>
+
+<div class="positionbutton">
+
+    <button class="button"><span>
+    <a href="./Profile.html">Main</a>
+    </span></button>
+    
+</div>
+
+<!--Ref https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1  -->
+
+
+</body>
+</html>
+<!-- boxbar- อยากถามเรื่องถ้าย่อหน้าจอยังไงไม่ให้มันทับกัน -->
